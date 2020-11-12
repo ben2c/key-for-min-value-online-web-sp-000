@@ -10,7 +10,7 @@ def key_for_min_value(name_hash)
       count +=1
     else
       if name_hash[:lowest] > name_hash[:key]
-        lowest = name_hash[key]
+        lowest = name_hash[:key]
       end
     end
   end
