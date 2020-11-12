@@ -6,7 +6,7 @@ def key_for_min_value(name_hash)
   lowest = ""
   name_hash.each do |key, value|
     if count = 0
-      lowest = key
+      lowest = :key
       count +=1
     else
       if name_hash[:lowest] > name_hash[:key]
